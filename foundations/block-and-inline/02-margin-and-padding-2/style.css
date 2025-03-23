@@ -1,27 +1,82 @@
 body {
   background: #eee;
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .card {
   width: 400px;
   background: #fff;
-  margin: 16px auto;
+  padding: 6px ;
+  box-sizing: border-box;
+  margin: 10px auto;
 }
 
 .title {
+  padding: 6px;
+  font-size: 16px;
   background: #e3f4ff;
 }
 
 .content {
   background: #e3f4ff;
+  font-size: 15px;
+  padding: 10px;
+  margin: 12px auto;
+}
+
+.button-container {
+  margin: 12px auto;
+  background: #e3f4ff;
+  padding: 12px;
+  text-align: center;
+  font-size: 15px;
+}
+
+button {
+  display: block;
+  background: white;
+  border: 1px solid #eee;
+  margin: auto;
+  padding: 6px;
+  width: 120px;
+}
+
+/* Actual Solution */
+/* body {
+  background: #eee;
+  font-family: sans-serif;
+}
+
+.card {
+  background: #fff;
+  width: 400px;
+  padding: 8px;
+  margin: 16px auto;
+}
+
+.title {
+  background: #e3f4ff;
+  margin-bottom: 8px;
+  font-size: 16px;
+  padding: 8px;
+}
+
+.content {
+  background: #e3f4ff;
+  margin-bottom: 8px;
+  padding: 16px 8px;
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
+  padding: 8px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
-}
+  display: block;
+  margin: 0 auto;
+  padding: 8px 24px;
+} */
